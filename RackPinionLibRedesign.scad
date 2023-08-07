@@ -29,10 +29,12 @@ $fn=50;
 // a simple rack
 
 //		rack(10,14,10,15,6);//CP (mm/tooth), width (mm), thickness(of base) (mm), # teeth, lip
+/*
 difference(){
 cube([20,20,16], center=true);
 translate([0,-1,1]) rotate([0,0,0])rackCutout(40,14,10,6,.5);
 }
+*/
 
 //translate([0,-46,0])rotate([0,0,360/10/2]) pinion(10,15,10,19);// cp= circular pitch, # of teeth, width, shaft Diameter
 
